@@ -4,7 +4,7 @@ public class Miles {
     public static void main(String[] args) {
         if (args.length != 1)
             throw new IllegalArgumentException("Number of arguments not equal 1");
-        long price_ticket = Long.parseLong(args[0]);
-        System.out.println(price_ticket / 20);
+        long priceTicket = Long.parseLong(args[0]);
+        System.out.println(priceTicket / 20);
     }
 }
